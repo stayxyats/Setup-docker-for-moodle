@@ -11,7 +11,9 @@ git clone --depth 1 -b MOODLE_405_STABLE https://github.com/moodle/moodle.git mo
 docker compose up -d  
 docker compose exec web chown -R www-data:www-data /var/www/moodledata  
 chmod -R 777 moodle  
-'''
+'''  
+
+Access through "http://localhost:8080/"  
 
 BaseType -> PostgreSQL  
 Serveur -> db  
